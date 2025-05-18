@@ -22,7 +22,7 @@ server.use('/api/schedule', scheduleRouter);
 server.use('/api/feedback', feedbackRouter);
 
 server.get('/', (req, res) => {
-    res.send('Server is healthy.');
+    res.send('Server is healthy, Last update user profile update.');
 });
 
 server.listen(8080, () => {
